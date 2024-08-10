@@ -10,9 +10,9 @@ jobs:
       contents: write
     strategy:
       matrix:
-        font-size: [10, 12, 16]
+        font-size: [12]
         width-mode: [monospaced, proportional]
-        font-format: [otf, ttf, woff2, bdf, pcf, otc, ttc]
+        font-format: [ttf, woff2]
       fail-fast: false
     runs-on: ubuntu-latest
     steps:
