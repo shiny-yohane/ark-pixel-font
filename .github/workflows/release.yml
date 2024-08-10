@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         font-size: [12]
-        width-mode: [monospaced, proportional]
+        width-mode: [proportional]
         font-format: [ttf, woff2]
       fail-fast: false
     runs-on: ubuntu-latest
